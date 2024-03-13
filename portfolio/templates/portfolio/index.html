@@ -1,0 +1,836 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Rintaro Watanabe</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="{% static 'img/favicon.ico' %}" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">MY Portfolio</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#service" class="nav-item nav-link">Service</a>
+                        <a href="#experience" class="nav-item nav-link">Experience</a>
+                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                        <a href="#price" class="nav-item nav-link">Price</a>
+                        <a href="#review" class="nav-item nav-link">Review</a>
+                        <a href="#team" class="nav-item nav-link">Team</a>
+                        <a href="#blog" class="nav-item nav-link">Blog</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>僕の名前は</p>
+                                <h1>渡辺 倫太郎</h1>
+                                <p>Rintaro Watanabe</p>
+                                <h2></h2>
+                                <div class="typed-text">strawberry farmer, Web Designer, Web Developer, Apps Designer, Apps Developer</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="{% static 'img/rintaro3.jpeg' %}" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+        <!--経歴 -->
+
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>about me</p>
+                    <h2>経歴</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2012 - 2015</div>
+                            <h2>茗渓学園中学校入学</h2>
+                            <p>
+                                ラグビー部に所属し、部活中心の生活をしていました。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2015 - 2018</div>
+                            <h2>茗渓学園高校入学</h2>
+                            <p>
+                                怪我をきっかけに、ラグビー部を辞めざるを得なくなりました。退部後、進路を改めて考え直す中で、父が医師であったことも影響し、子供の頃から抱いていた医師になるという夢に焦点を当てることにしました。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2018 - 2021</div>
+                            <h2>浪人時代</h2>
+                            <p>
+                                現役の時には医学部への道は叶わず、それでも医師になる夢を諦めきれずに、浪人を決意しました。3年間の長きにわたり、成人式をはじめとするさまざまなイベントを断念し、孤独と戦いながらも、絶対に医師になるという一心で勉強に励みました。しかし、夢は叶わず、そのプレッシャーは過呼吸を引き起こすほどで、父の手によって救われることもありました。途方に暮れていたその時、ICTを駆使した新しいスタイルの大学に出会い、何か新しいことに挑戦したいという思いに駆られ、その大学への入学を決意しました。しかし、心の片隅には、医師への夢を捨てきれずにいた自分がいました。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2021 - 2022</div>
+                            <h2>東洋大学 情報連携学部 INIAD 入学</h2>
+                            <h4>プログラミングの基礎を学ぶ</h4>
+                            <p>
+                                複雑な感情を抱えながらINIADに入学した私は、新築されたばかりのキャンパスのすべてが輝いて見えました。坂村健学部長の講義を聞いた際の衝撃は今も鮮明に記憶しています。中でも、ICTと農業を組み合わせて世界一の農業生産効率を実現したオランダの農家の話には心を揺さぶられました。それが、私が農業に興味を持ち始めたきっかけです。自分も実際に農業に触れてみたいという強い思いから、いちご農家でのアルバイトをスタートさせることにしました。この経験が、私に新たな世界を開く扉となったのです。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2022 - 2023</div>
+                            <h2>大学2年 エンジニアリングコースを選択</h2>
+                            <p>
+                                INIADでの学びは、エンジニアリング、デザイン、ビジネス、シビルシステムの4つの分野に別れ、各自が専門性を磨きます。私はエンジニアリングコースを選択し、技術の核心に迫るような学問に没頭しました。
+                                実習では、チームで協力し、実際のビジネスシーンを想定したプロジェクトに挑戦しました。その一環として、Stripe APIを使用して、IT化が遅れていた古い喫茶店がデジタルトランスフォーメーションを経験するというシナリオのもと、オンラインでの注文システムを構築しました。このプロジェクトを通じて、古き良き文化を大切にしつつも、新しい技術を取り入れて業務改善を行う重要性を学び、将来に向けた大きな一歩を踏み出しました。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2023 - 2024</div>
+                            <h2>大学3年 情報連携実習３で選抜チームに</h2>
+                            <h4>衝撃の登場 Chat GPT</h4>
+                            <p>
+                                3年生の春、私たちINIADの学生には予期しないニュースが届きました。学部長の坂村健氏から、Chat GPTを全学生に無料で提供するという発表がありました。このAI技術はまだ新しくて、他の大学では導入について議論が活発に行われていました。一部の場所では教育理由からChat GPTを禁止しているほどです。大学教育が新技術によってどう変わるのかまだわかりませんでしたが、INIADは積極的にChat GPTを活用しようとしていました。これには驚きました。
+                                話は変わりますが、3年生になると情報連携実習3というものがあります。この実習では、エンジニアリング、デザイン、ビジネス、シビルシステムの各コースから集まった生徒たちがチームを組み、学部長が出したテーマに沿って、サービスの企画から実際の作成、そして発表に至る一連のプロジェクトを行います。今年のテーマは「Chat GPTを使って何かする」でした。私たちのチームはAIによる献立提案アプリケーションを開発しようとしていましたが、市場調査をしているうちに、動画ベースのレシピが人気であることに気づき、考えを変えました。結果、YouTubeの字幕機能と組み合わせた、ユーザーとAIが対話するシステムを思いつきました。そしてFlutterを使ってアプリケーションを開発しました。このプロジェクトは優れていると評価され、学年を代表して成果を発表しました。この経験は、技術力を高めることはもちろん、チームワークの重要性も学ぶことができました。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!--経歴 終わり-->
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="{% static 'img/iniad.jpeg' %}" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>About me</p>
+                                <h2>INIAD で学んだこと</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    INIADでの学びは、単に技術を習得することだけではなく、それをどのように社会に役立てるかという視点も重要視されました。エンジニアリングコースでの学習を通じて、最新の技術トレンドを理解し、プログラミング、システム設計、データ分析などの実践的なスキルを身につけました。しかし、それだけではなく、デザイン、ビジネス、シビルシステムの学生と共同でプロジェクトを行う中で、異なる専門分野の知識を融合させ、より幅広い視野を持つことの重要性も学びました。
+                                </p>
+                                <p>
+                                    また、INIADでは単に知識を詰め込むのではなく、主体的に学び、自ら問題を発見し、解決策を考案する力を養うことが強調されました。情報連携実習などでのプロジェクトでは、実際の社会課題に取り組み、その解決のために技術を活用する方法を考えることが求められました。このような経験を通して、単に技術者としてのスキルだけでなく、社会に貢献するための視点や考え方を学ぶことができました。
+                                </p>
+                                <p>
+                                    INIADでの学びは、技術の習得だけに留まらず、それをどのように社会に役立てるか、異なる専門分野とどのように連携するかという点に重点を置いています。これらの経験は、将来のキャリアにおいても大いに役立つものと確信しています。
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <div class="service" id="service">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>what i can do</p>
+                    <h2>私ができること</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Web Design</h3>
+                                <p>
+                                    プログラミングスキルを持つデザイナーの需要が高まっています。そのため、私はエンジニアリングとデザインの双方の知識を身につけました。              
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Web Development</h3>
+                                <p>
+                                    Web開発の技術を学び、フロントエンドとバックエンドの両方の知識を深めました。データベースの操作やAPIの使用、セキュリティ対策など、Web開発における重要な要素についても学びました。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Apps Design</h3>
+                                <p>
+                                UIとUXの両方に重点を置いています。良いアプリデザインは単に見た目が美しいだけでなく、ユーザーが直感的に操作でき、目的を達成しやすいものであるべきだと考えています。シンプルであるべきと考えます。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Apps Development</h3>
+                                <p>
+                                    Flutter,Javaで、ウィジェットベースのUI構築、状態管理、API連携などの様々な技術を学んできました。また、Firebaseを使用してバックエンドの機能を実装し、リアルタイムデータベースや認証機能をアプリに統合する経験もあります。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills" id="skills">
+                        <div class="container">
+                            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                                <p>My Skills</p>
+                                <h2>Programming Languages</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="skill-item">
+                                        <img src="{% static 'img/html5.png' %}" alt="HTML5" class="skill-img">
+                                        <p>HTML5</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="skill-item">
+                                        <img src="{% static 'img/CSS3_logo.svg.png' %}" alt="CSS3" class="skill-img">
+                                        <p>CSS3</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="skill-item">
+                                        <img src="{% static 'img/js.png' %}" alt="JavaScript" class="skill-img">
+                                        <p>JavaScript</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="skill-item">
+                                        <img src="{% static 'img/python.png' %}" alt="Python" class="skill-img">
+                                        <p>Python</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="skill-item">
+                                        <img src="{% static 'img/django.png' %}" alt="Django" class="skill-img">
+                                        <p>Django</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="skill-item">
+                                        <img src="{% static 'img/c.png' %}" alt="C Language" class="skill-img">
+                                        <p>C</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="skill-item">
+                                        <img src="{% static 'img/firebase.png' %}" alt="Firebase" class="skill-img">
+                                        <p>Firebase</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="skill-item">
+                                        <img src="{% static 'img/flutter.png' %}" alt="Flutter" class="skill-img">
+                                        <p>Flutter</p>
+                                    </div>
+                                </div>
+                                
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+
+
+        <!-- Banner Start -->
+        <div class="banner wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="section-header text-center">
+                   
+                    <h2>私の目指すデザインは</h2>
+                    <h2>人間中心だけではない、</h2>
+                    <h2><span>自然</span>も含めたデザイン</h2>
+                </div>
+                <div class="container banner-text">
+                    <p>
+                        いちご農家としての経験を通じて、私は自然との調和が如何に不可欠であるかを深く実感しました。自然を尊重し、その要素をデザインとして取り入れることが、より豊かで持続可能な未来への鍵となり得ると確信しています。自然の美しさと力を生かし、人々の生活に積極的な影響を与えるデザインを追及したいと思っています。
+                        <br><br>
+                        最近の環境活動家たちがメディアで話題になることがありますが、彼らの中には人間が自然から生じた存在であることを十分に理解していないように感じることがあります。人間は自然の産物であり、したがって環境破壊の側面も自然の一端と捉えられるのではないでしょうか。これは人間の文明と環境を一つの連続体として考える視点をもたらします。
+                        <br><br>
+                        ただし、私たちは現代社会において石油などの資源に依存しており、これを突如として絶つことは現実的ではありません。極端な措置は、私たちの生活を直面する多くの問題に対して現実的な解決策を提供しません。そのため、日々の暮らしを慎重に考慮しつつ、環境に配慮したデザインを推進することが、今後10年、30年という長期的な視野で見ても最も重要だと考えています。
+                        <br><br>
+                        私たちは自然に敬意を払いながらも、文明を前進させる方法を見出さなければなりません。持続可能なデザインはこの橋渡しをする手法の一つであり、私たちは自然のリズムに耳を傾けることで、生活空間へと自然の和やかな息吹を取り込むことができるのです。これからの時代において、デザインはただの見た目の美しさを追求するだけではなく、地球との調和を考え、その恵みを活かして人々の営みを豊かにする責任があります。これは、私たち一人一人が日常生活の中で、自然との共生を意識することから始まり、さらには農業から都市設計に至るまで、様々な分野において実現されなければならない急務な課題です。私はイチゴ農家としての経験を通じて得たこの洞察を、デザインの世界へと持ち込み、人々の生活を育む環境としての役割を果たしていく所存です。
+                    </p>
+                </div>                
+            </div>
+        </div>
+        <!-- Banner End -->
+
+        <!-- Portfolio Start -->
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Portfolio</p>
+                    <h2>My Excellent Portfolio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul id="portfolio-filter">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-1">Web Design</li>
+                            <li data-filter=".filter-2">Mobile Apps</li>
+                            <li data-filter=".filter-3">Game Dev</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="{% static 'img/portfolio-1.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>eCommerce Website</h3>
+                                <a class="btn" href="{% static 'img/portfolio-1.jpg' %}" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="{% static 'img/portfolio-2.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Product Landing Page</h3>
+                                <a class="btn" href="{% static 'img/portfolio-2.jpg' %}" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="{% static 'img/portfolio-3.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>JavaScript quiz game</h3>
+                                <a class="btn" href="{% static 'img/portfolio-3.jpg' %}" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="{% static 'img/portfolio-4.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>JavaScript drawing</h3>
+                                <a class="btn" href="{% static 'img/portfolio-4.jpg' %}" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="{% static 'img/portfolio-5.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Social Mobile Apps</h3>
+                                <a class="btn" href="{% static 'img/portfolio-5.jpg' %}" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="{% static 'img/portfolio-6.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Company Website</h3>
+                                <a class="btn" href="{% static 'img/portfolio-6.jpg' %}" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio End -->
+
+        <!-- Banner Start -->
+        <div class="banner wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Awesome Discount</p>
+                    <h2>Get <span>30%</span> Discount</h2>
+                </div>
+                <div class="container banner-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
+                    </p>
+                    <a class="btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- Banner End -->
+
+        <!-- Price Start -->
+        <div class="price" id="price">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>Pricing Plan</p>
+                    <h2>Affordable Price</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="price-item">
+                            <div class="price-header">
+                                <div class="price-title">
+                                    <h2>Basic</h2>
+                                </div>
+                                <div class="price-prices">
+                                    <h2><small>$</small>49<span>/ mo</span></h2>
+                                </div>
+                            </div>
+                            <div class="price-body">
+                                <div class="price-description">
+                                    <ul>
+                                        <li>Bootstrap 4</li>
+                                        <li>Font Awesome 5</li>
+                                        <li>Responsive Design</li>
+                                        <li>Browser Compatibility</li>
+                                        <li>Easy To Use</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="price-footer">
+                                <div class="price-action">
+                                    <a class="btn" href="">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="price-item featured-item">
+                            <div class="price-header">
+                                <div class="price-title">
+                                    <h2>Standard</h2>
+                                </div>
+                                <div class="price-prices">
+                                    <h2><small>$</small>99<span>/ mo</span></h2>
+                                </div>
+                            </div>
+                            <div class="price-body">
+                                <div class="price-description">
+                                    <ul>
+                                        <li>Bootstrap 4</li>
+                                        <li>Font Awesome 5</li>
+                                        <li>Responsive Design</li>
+                                        <li>Browser Compatibility</li>
+                                        <li>Easy To Use</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="price-footer">
+                                <div class="price-action">
+                                    <a class="btn" href="">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="price-item">
+                            <div class="price-header">
+                                <div class="price-title">
+                                    <h2>Premium</h2>
+                                </div>
+                                <div class="price-prices">
+                                    <h2><small>$</small>149<span>/ mo</span></h2>
+                                </div>
+                            </div>
+                            <div class="price-body">
+                                <div class="price-description">
+                                    <ul>
+                                        <li>Bootstrap 4</li>
+                                        <li>Font Awesome 5</li>
+                                        <li>Responsive Design</li>
+                                        <li>Browser Compatibility</li>
+                                        <li>Easy To Use</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="price-footer">
+                                <div class="price-action">
+                                    <a class="btn" href="">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Price End -->
+
+        <!-- Testimonial Start -->
+        <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
+            <div class="container">
+                <div class="testimonial-icon">
+                    <i class="fa fa-quote-left"></i>
+                </div>
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="{% static 'img/testimonial-1.jpg' %}" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                            </p>
+                            <h3>Customer Name</h3>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="{% static 'img/testimonial-2.jpg' %}" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                            </p>
+                            <h3>Customer Name</h3>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="{% static 'img/testimonial-3.jpg' %}" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                            </p>
+                            <h3>Customer Name</h3>
+                            <h4>Profession</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Team Start -->
+        <div class="team" id="team">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Team</p>
+                    <h2>Expert Team Members</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="{% static 'img/team-1.jpg' %}" alt="Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Mollie Ross</h2>
+                                <h4>Web Designer</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                </p>
+                                <div class="team-social">
+                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="{% static 'img/team-2.jpg' %}" alt="Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Dylan Adams</h2>
+                                <h4>Web Developer</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                </p>
+                                <div class="team-social">
+                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="{% static 'img/team-3.jpg' %}" alt="Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Jennifer Page</h2>
+                                <h4>Apps Designer</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                </p>
+                                <div class="team-social">
+                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="{% static 'img/team-4.jpg' %}" alt="Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Josh Dunn</h2>
+                                <h4>Apps Developer</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                </p>
+                                <div class="team-social">
+                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Contact Start -->
+        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div>
+                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Blog Start -->
+        <div class="blog" id="blog">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>From Blog</p>
+                    <h2>Latest Articles</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="blog-img">
+                                <img src="{% static 'img/blog-1.jpg' %}" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Web Design</p>
+                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    <p><i class="far fa-comments"></i>5</p>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                                </p>
+                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="blog-img">
+                                <img src="{% static 'img/blog-2.jpg' %}" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Apps Design</p>
+                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    <p><i class="far fa-comments"></i>10</p>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                                </p>
+                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h2>Kate Winslet</h2>
+                        <h3>123 Street, New York, USA</h3>
+                        <div class="footer-menu">
+                            <p>+012 345 67890</p>
+                            <p>info@example.com</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+        <script src="{% static 'lib/wow/wow.min.js' %}"></script>
+        <script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+        <script src="{% static 'lib/typed/typed.min.js' %}"></script>
+        <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+        <script src="{% static 'lib/isotope/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'lib/lightbox/js/lightbox.min.js' %}"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="{% static 'mail/jqBootstrapValidation.min.js' %}"></script>
+        <script src="{% static 'mail/contact.js' %}"></script>
+
+        <!-- Template Javascript -->
+        <script src="{% static 'js/main.js' %}"></script>
+    </body>
+</html>
